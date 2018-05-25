@@ -103,7 +103,7 @@ class WikiListModel:Mappable {
 }
 
 class HDHM01Result: Mappable {
-    
+    //类型一定要写对 不然获取不到
     var collectList:Array<CollectListModel>?
     var recipeList:Array<RecipeListModel>?
     var tagList:Array<TagListModel>?

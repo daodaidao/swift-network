@@ -39,7 +39,8 @@ class ViewController: UIViewController {
             // 直接获取到结果集， 数据请求结果集
             WS.hdHM01Response = hdResponse
             
-            print("WS.hdHM01Response?.result?.tagList: \(WS.hdHM01Response?.result?.tagList)")
+        
+            print("WS.hdHM01Response?.result?.recipe_list: \(WS.hdHM01Response?.result?.recipeList)")
             
             
             
